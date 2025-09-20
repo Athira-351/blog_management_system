@@ -114,4 +114,23 @@ The backend will be running at [http://localhost:5000](http://localhost:5000)
 Authentication is handled using **JWT**.
 
 ---
+<div style="display: flex; gap: 10px;">
+  <img src="Images/login.png" alt="Screenshot 1" width="400" height="300"/>
+  <img src="Images/userlogin.png" alt="Screenshot 1" width="400" height="300"/>
+</div>
+<div style="display: flex; gap: 10px;">
+  <img src="Images/dashboard.png" alt="Screenshot 1" width="400" height="300"/>
+  <img src="Images/createblog.png" alt="Screenshot 1" width="400" height="300"/>
+</div>
+<div style="display: flex; gap: 10px;">
+  <img src="Images/editblog.png" alt="Screenshot 1" width="400" height="300"/>
+  <img src="Images/updateblog.png" alt="Screenshot 1" width="400" height="300"/>
+</div>
+<div style="display: flex; gap: 10px;">
+  <img src="Images/userdashboard.png" alt="Screenshot 1" width="400" height="300"/>
+  <img src="Images/blogs.png" alt="Screenshot 1" width="400" height="300"/>
+</div>
+<div style="display: flex; gap: 10px;">
+  <img src="Images/blogview.png" alt="Screenshot 1" width="400" height="300"/>
+</div>
 
