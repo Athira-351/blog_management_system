@@ -37,7 +37,7 @@ const BlogView = () => {
       <p className="mt-4">{blog.content}</p>
       <button
         onClick={() => navigate("/user-dashboard")}
-        className="mt-4 bg-gray-500 text-white px-4 py-2"
+        className="mt-4 bg-yellow-500 text-white px-4 py-2 rounded-2xl hover:bg-yellow-600"
       >
         Back
       </button>
