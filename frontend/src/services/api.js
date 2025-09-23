@@ -3,6 +3,7 @@ import axios from "axios";
 const API = axios.create({
   // baseURL: "http://localhost:5000/api",
   baseURL: "https://blogmanagementsystem-production-15a5.up.railway.app/api",
+  withCredentials: true
 });
 
 API.interceptors.request.use(
