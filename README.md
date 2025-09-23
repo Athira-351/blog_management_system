@@ -108,12 +108,6 @@ The frontend will be running at [http://localhost:5173](http://localhost:5173)
 The backend will be running at [http://localhost:5000](http://localhost:5000)
 
 ---
-
-## 🔐 Authentication
-
-Authentication is handled using **JWT**.
-
----
 <div style="display: flex; gap: 10px;">
   <img src="Images/login.png" alt="Screenshot 1" width="400" height="300"/>
   <img src="Images/userlogin.png" alt="Screenshot 1" width="400" height="300"/>
@@ -133,4 +127,13 @@ Authentication is handled using **JWT**.
 <div style="display: flex; gap: 10px;">
   <img src="Images/blogview.png" alt="Screenshot 1" width="400" height="300"/>
 </div>
+
+---
+# Demo video
+<a href="https://drive.google.com/uc?export=download&id=1Gs66nq2FRCzAVq5saNhKs6U465WZIffT">
+  <img src="Images/dashboard.png" alt="Watch the video" width="400"/>
+</a>
+
+---
+
 
