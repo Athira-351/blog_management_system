@@ -11,7 +11,13 @@ dotenv.config();
 const app = express();
 
 // Middleware
-app.use(cors({ origin: "http://localhost:5173" }));
+// app.use(cors({ origin: "http://localhost:5173" }));
+import cors from "cors";
+app.use(cors({
+  origin: "https://blog-management-system-one.vercel.app",
+  credentials: true
+}));
+
 app.use(express.json());
 
 // Routes
@@ -20,7 +26,7 @@ app.use("/api/blogs", blogRoutes);
 
 const PORT = process.env.PORT || 5000;
 sequelize
-  .sync({ alter: false })
+  .sync({ alter: true })
   .then(async () => {
     console.log("Database synced");
 
