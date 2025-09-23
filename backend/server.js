@@ -14,9 +14,11 @@ const app = express();
 // app.use(cors({ origin: "http://localhost:5173" }));
 app.use(cors({
   origin: "https://blog-management-system-one.vercel.app",
-  credentials: true
+  credentials: true,
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"]
 }));
-
+app.options("*", cors());
 app.use(express.json());
 
 // Routes
