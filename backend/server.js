@@ -12,7 +12,6 @@ const app = express();
 
 // Middleware
 // app.use(cors({ origin: "http://localhost:5173" }));
-import cors from "cors";
 app.use(cors({
   origin: "https://blog-management-system-one.vercel.app",
   credentials: true
