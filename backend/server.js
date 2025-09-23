@@ -12,12 +12,12 @@ const app = express();
 
 // Middleware
 // app.use(cors({ origin: "http://localhost:5173" }));
-app.use(cors({
+const corsOptions = {
   origin: "https://blog-management-system-one.vercel.app",
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"]
-}));
+};
 app.use(cors(corsOptions));
 app.use(express.json());
 
